@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #7B7A90;
+  --secondary: #B7B6C2;
+  --tertiary: #D1D5DE;
+  --accent-one: #8AAA79;
+  --accent-two: #657153;
+}
+
+body {
+  margin: 0;
+  font-family: 'Abhaya Libre';
+  background: var(--tertiary);
+}
+
+* {
+  color: var(--primary);
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--accent-one);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
